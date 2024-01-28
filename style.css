@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 20px;
+}
+.btn1{
+    border: 3px solid hotpink;
+    border-radius: 25px;
+    background: hotpink;
+}
+.btn1:hover{
+    
+    background: transparent;
+    color: #000;
+}
+.btn1:hover i{
+    color: #000 !important;
+}
+.btn2{
+    background: rgba(0, 0, 0,.3);
+    border: 3px solid rgb(183, 90, 44);
+}
+
+.preview{
+    position: relative;
+    background-image: url(./img/background.png);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.preview .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.preview header{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.preview header .logo h1{
+    color: #ffffff;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.preview header .nav-bar{
+    padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.preview header .nav-bar .nav-link.active a {
+    border-bottom:1px  solid #ffffff;
+}
+.preview header .nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+.preview .welcome {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 130px auto;
+}
+.preview .welcome h2{
+    color: #fff;
+    font-size: 150px;
+}
+
+.preview .welcome h3{
+    color: #fff;
+    font-size: 90px;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*
+section who we are?
+*/
+.sec-1{
+    display: flex;
+}
+.sec-who{
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    background: rgb(249, 231, 231);
+    gap: 50px;
+}
+.sec-who.sacand{
+    padding: 0 50px 10px ;
+    justify-content: center;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+.sec-who.Services .who{
+    padding: 30px 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sec-who .img {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-who .img img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sec-who .who {
+    padding: 30px 20px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    text-align: center;
+}
+.sec-who .who h2 {
+    color: hotpink;
+}
+
+/*
+section our Deily
+*/
+.sec-our-Deily {
+    padding: 50px 50px;
+    height: 620px;
+    background: rgb(0, 0, 0);
+}
+.sec-our-Deily  .our-Deily {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    gap: 20px;
+     color: #fff;
+}
+.sec-our-Deily  .our-Deily > h2:first-child {
+    display: flex;
+    align-self: start;
+   
+
+}
+.sec-our-Deily  .our-Deily .cards {
+    display: flex; 
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec-our-Deily  .our-Deily .cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 22%;
+    justify-content: start;
+}
+.sec-our-Deily  .our-Deily .cards .card .price {
+    display: flex;
+    justify-content: space-around;
+}
+.sec-our-Deily  .our-Deily .cards .card .price p:last-child {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+/*
+section Contact us!
+*/
+
+.sec-Contact{
+background-image: url(./img/lizzie-BqYoSL76lGo-unsplash\ 2.png);
+    height: 400px;
+    
+}
+
+/*
+footer  !
+*/
+footer {
+    color: #bfbfbf;
+    padding: 0;
+    margin-top: -21px;
+}
+
+
+footer .bottom{
+    color: #ffffff;
+    text-align: center;
+    background: rgb(33, 33, 33);
+    height: 200px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .bottom  div{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+footer .bottom  h4{
+    
+}
+footer .bottom  a{
+    color: #bfbfbf;
+}
+.icons{
+    display: flex;
+    padding: 0 40%;
+    text-align: center;
+}
+ .icons i{
+    margin: 0 15px;
+}
+
+
+
